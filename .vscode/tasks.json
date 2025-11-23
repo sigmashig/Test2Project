@@ -13,7 +13,7 @@
                                ],
                       "options":  {
                                       "statusbar":  {
-                                                        "label":  "#production#"
+                                                        "label":  "#test#"
                                                     }
                                   },
                       "presentation":  {

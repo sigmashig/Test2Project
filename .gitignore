@@ -57,3 +57,4 @@ __pycache__/
 
 # managed_components directory
 managed_components/
+build_config_marker.txt
