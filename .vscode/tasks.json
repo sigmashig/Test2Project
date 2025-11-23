@@ -1,0 +1,25 @@
+{
+    "version":  "2.0.0",
+    "tasks":  [
+                  {
+                      "label":  "Build Config",
+                      "type":  "shell",
+                      "command":  "powershell",
+                      "args":  [
+                                   "-ExecutionPolicy",
+                                   "Bypass",
+                                   "-File",
+                                   "${workspaceFolder}\\.vscode\\setBuildConfig.ps1"
+                               ],
+                      "options":  {
+                                      "statusbar":  {
+                                                        "label":  "#production#"
+                                                    }
+                                  },
+                      "presentation":  {
+                                           "reveal":  "always",
+                                           "panel":  "shared"
+                                       }
+                  }
+              ]
+}
